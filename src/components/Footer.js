@@ -15,7 +15,7 @@ export default function footer(props) {
                 <div class="f-item widget_dustra_contact_widget">
                   <div class="f-item contact">
                     <h4 class="widget-title">Contact Us</h4>
-                    <p>Anil Grocery Store</p>
+                    <p>Neha tuteja  Store</p>
                     <ul>
                       <li>
                         <i class="fas fa-map-marker-alt"></i>
