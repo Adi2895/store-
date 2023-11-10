@@ -15,17 +15,18 @@ export default function footer(props) {
                 <div class="f-item widget_dustra_contact_widget">
                   <div class="f-item contact">
                     <h4 class="widget-title">Contact Us</h4>
-                    <p>Neha tuteja  Store</p>
+                    <p>Manoj Grocery Store</p>
                     <ul>
                       <li>
-                        <i class="fas fa-map-marker-alt"></i>
-                        Anil Grocery store ,
-                        harchand patti Dhanauri, Jind
+                        <i class="fas fa-map-marker-alt mx-2"></i>
+                        Manoj Grocery Store, Main Road Nissing(Karnal), Haryana
+                        Pincode: 132024 <br/>
+                        Mob: +918930754937
                       </li>
                       <li>
                         <i class="fas fa-envelope-open"></i>
-                        <a href="mailto:http://aniljaist93062@gmail.com">
-                        aniljaist93062@gmail.com
+                        <a  href="mailto:http://manojkashyap3249@gmail.com">
+                        manojkashyap3249@gmail.com
                         </a>
                       </li>
                     </ul>
@@ -118,7 +119,7 @@ export default function footer(props) {
                 {" "} <div class="col-lg-4 col-md-6 single-item">
                
               </div>
-                Anil Grocery Store{" "}
+                Manoj Grocery Store{" "}
               </Link>
             </span>
             ALL RIGHTS RESERVED

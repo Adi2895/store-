@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image from "./static/front_back.jpg"
+import image from "./static/front_back.jpeg"
 export default function Home() {
   const [displayText, setDisplayText] = useState("");
 
@@ -44,8 +44,8 @@ export default function Home() {
                 <div class="content">
                   <div class="shape animated slideInLeft"></div>
                   <h1 style={{color:"black"}}data-animation="animated slideInDown">
-                    Anil <strong>Grocery Store</strong>
-                    <br />
+                    Manoj <strong>Grocery Store , Main Road Nissing(Karnal), Haryana</strong>
+                    <br/>
                    
                   </h1>
                   <div class="slider-button">
@@ -53,14 +53,14 @@ export default function Home() {
                       data-animation="animated slideInUp"
                       class="btn btn-theme effect btn-md"
                     >
-                      View Products
+                      {/* View Products */}
                     </a>
                   </div>
                 </div>
               </div>
               <div class="col-lg-8">
                 <div class="content">
-                  <img src={image} width="1000px" height="500px" alt="image_of_shop"/>
+                  <img src={image} width="850px" height="600px" alt="image_of_shop"/>
                 </div>
               </div>
             </div>

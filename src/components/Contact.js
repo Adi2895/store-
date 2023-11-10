@@ -45,7 +45,7 @@ export default function Contact(props) {
                         <div className="container container-app-email" >
                             <h4 style={{ color: "white", marginBottom: "3px" }}> <span><i className="fa-solid fa fa-envelope fa-xl" style={{ color: "orange", padding: "5px" }}></i> </span> Email ID </h4>
                             <div className="container sensitive" >
-                                <Link className='clickable' style={{ textDecoration: "none", color: "blue" }} to="mailto:aniljaist93062@gmail.com?subject=What's your subject User?">aniljaist93062@gmail.com</Link>
+                                <Link className='clickable' style={{ textDecoration: "none", color: "blue" }} to="mailto:aniljaist93062@gmail.com?subject=What's your subject User?">manojkashyap3249@gmail.com</Link>
                             </div>
                         </div>
 
@@ -55,7 +55,7 @@ export default function Contact(props) {
                             <h4 style={{ color: "white", marginBottom: "2px" }}> <span><i className="fa-brands fa-whatsapp  fa-xl" style={{ color: "#20df69" }}></i></span> Whatsapp </h4>
                             <div className="container sensitive">
                                 {/* <Link className='clickable'  style={{ textDecoration: "none" }} target='_blank' to="https://api.whatsapp.com/send?phone=8950620400">Click me → 8950620400</Link> */}
-                                <Link className='clickable'  style={{ textDecoration: "none" }} target='_blank' to="https://wa.me/+917056527098">Click me → 7056527098</Link>
+                                <Link className='clickable'  style={{ textDecoration: "none" }} target='_blank' to="https://wa.me/+918930754937">Click me → +918930754937</Link>
                             </div>
                         </div>
 
@@ -91,7 +91,7 @@ export default function Contact(props) {
                                     <small id="emailHelp" className="form-text text-muted ">We'll never share your email with anyone else.</small>
                                 </div>
                                 <div className="form-group">
-                                    <label htmlfor="exampleInputPassword1" style={{marginTop:"25px"}}>About project</label>
+                                    <label htmlfor="exampleInputPassword1" style={{marginTop:"25px"}}>About Project</label>
                                     <textarea name='aboutProject' type="text" className="form-control" id="exampleInputPassword1" placeholder="Write about your project" required/>
                                 </div>
                                 <button type="submit"  className="btn btn-primary my-3">Submit</button>

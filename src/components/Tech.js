@@ -14,7 +14,7 @@ export default function Tech(props) {
 
         
         <div ref ={props.tech} className='container' style={{backgroundColor:""}}>
-            <h1 className="my-4" style={{ fontSize: "3rem", fontFamily:"Alkatra", color:"black" }}>Our Products</h1>
+            <h1 className="" style={{ fontSize: "3rem", fontFamily:"Alkatra", color:"black" }}>Our Products</h1>
             <p className='container' style={{ fontSize: "1.4rem", textAlign:"left", marginBottom:"40px" }}>
             
             

@@ -12,7 +12,7 @@ export default function Navbar(props) {
           className="navbar-brand mx-3"
           href="/"
         >
-          Anil Grocery Store
+          Manoj Grocery Store
         </NavLink>
         <button
           className="navbar-toggler"
@@ -57,11 +57,11 @@ export default function Navbar(props) {
           </ul>
         </div>
       </nav>
-      <div style={{backgroundColor:"gray", marginTop:"70px"}} class="topbar-style-three">
+      <div style={{backgroundColor:"gray", marginTop:"105px"}} class="topbar-style-three">
         <div class="container">
           <div class="row">
             <div class="col-md-3 logo">
-              <a href="https://www.panchalstore.com/">
+              <a href="/">
                 <img 
                     height="150px"
                     width="150px"
@@ -81,8 +81,9 @@ export default function Navbar(props) {
                       <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="info">
-                      <span>Address</span> Anil Srocery Store,
-                      Jind, Dhanauri{" "}
+                      <span>Address : </span> Manoj Srocery Store,
+                      , Main Road Nissing(Karnal), Haryana{" "},
+                      Pincode: 132024
                     </div>
             </div>
 
@@ -91,7 +92,10 @@ export default function Navbar(props) {
                       <i class="fas fa-envelope-open-text"></i>
                     </div>
                     <div class="info">
-                      <span>Email</span>aniljaist93062@gmail.com{" "}
+                      <span>Email : </span>
+                      <a href="mailto:http://manojkashyap3249@gmail.com" style={{color:"black"}}> manojkashyap3249
+                      @gmail.com{" "}</a>
+                      
                     </div>
             </div>
 
@@ -100,7 +104,7 @@ export default function Navbar(props) {
                       <i class="fas fa-headphones-alt"></i>
                     </div>
                     <div class="info">
-                      <span>Phone</span> 7056527098{" "}
+                      <span>Phone</span> +918930754937{" "}
                     </div>
             </div>
           </div>
